@@ -1,8 +1,14 @@
-// retorna o valor da soma entre os dois parâmetros
-function sum(v1, v2) {}
+const v1 = Number(prompt("Primeiro Numero: "))
+const v2 = Number(prompt("Sengundo Numero:"))
+
+function sum(v1, v2) {
+   return(v1 + v2)
+}
 
 // retorna o valor da subtração entre os dois parâmetros
-function sub(v1, v2) {}
+function sub(v1, v2) {
+    return (v1 - v2)
+}
 
 // retorna o valor da divisão entre os dois parâmetros
 function div(v1, v2) {
@@ -16,4 +22,6 @@ function mult(v1, v2) {}
 function square(v1) {}
 
 console.log(sum(v1, v2));
+console.log(sub(v1, v2));
 console.log(div(v1, v2));
+
